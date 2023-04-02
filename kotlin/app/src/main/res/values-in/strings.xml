@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Halo Dunia</string>
+    <string name="nameEditext">Nama :</string>
+    <string name="sayHelloButton">Ucapkan Ucapan</string>
+    <string name="sayHelloTextView">Hallo %1$s</string>
+
+</resources>

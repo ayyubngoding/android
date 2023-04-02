@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxPage">100</integer>
+    <integer-array name="ayyub">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </integer-array>
+    <bool name="ismylove">true</bool>
+    <color name="background">#8F503C</color>
+</resources>

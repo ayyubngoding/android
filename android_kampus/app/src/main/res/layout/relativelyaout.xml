@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/app_name"/>
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="50dp"
+        android:textSize="18sp"
+        android:text="Masukkan Teks"/>
+
+    <EditText
+        android:id="@+id/idEditTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="silahkan diisi"
+        android:layout_below="@+id/idTextView"
+        android:layout_alignLeft="@id/idTextView"
+        android:ems="15"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idButton"
+        android:layout_below="@id/idEditTextTextPersonName"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/idButton2"
+        android:backgroundTint="#ff0000"
+        android:text="CANCEL"/>
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/idButton2"
+    android:layout_below="@id/idEditTextTextPersonName"
+    android:layout_alignRight="@id/idEditTextTextPersonName"
+    android:layout_marginTop="10dp"
+    android:text="OK"/>
+
+
+    <TextView
+        android:id="@+id/textSayhello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="28dp"
+        android:text=""/>
+</RelativeLayout>
